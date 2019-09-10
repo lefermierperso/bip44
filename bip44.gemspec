@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "bip44/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bip44"
+  spec.name          = "bip44-extended"
   spec.version       = Bip44::VERSION
-  spec.authors       = ["wuminzhe"]
+  spec.authors       = ["wuminzhe, nikharR"]
   spec.email         = ["wuminzhe@gmail.com"]
 
-  spec.summary       = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
-  spec.description   = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard."
-  spec.homepage      = "https://github.com/wuminzhe/bip44"
+  spec.summary       = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard. (Extended)"
+  spec.description   = "A ruby library to generate Ethereum addresses from a hierarchical deterministic wallet according to the BIP44 standard. (Extended)"
+  spec.homepage      = "https://github.com/nikharR/bip44"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
