@@ -11,6 +11,7 @@ module Bip44
     include Bip44::BitcoinCash
     include Bip44::Litecoin
     include Bip44::Zcoin
+    include Bip44::Qtum
 
     def self.from_seed(seed, path)
       master = MoneyTree::Master.new(seed_hex: seed) # 3. 种子用于使用 HMAC-SHA512 生成根私钥（参见 BIP32）
