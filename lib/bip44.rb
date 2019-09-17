@@ -11,6 +11,7 @@ require 'bip44/ethereum'
 require 'bip44/litecoin'
 require 'bip44/bitcoin_cash'
 require 'bip44/zcoin'
+require 'bip44/qtum'
 require 'bip44/wallet'
 
 module Bip44
