@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "execjs", "~> 2.4.0"
 
-  spec.add_dependency "money-tree-extended", "~> 0.11.1"
+  spec.add_dependency "money-tree-extended", "~> 0.11.2"
   spec.add_dependency "ecdsa", "~> 1.2.0"
   spec.add_dependency "digest-sha3", "~> 1.1.0"
   spec.add_dependency "rlp", "~> 0.7.3"
